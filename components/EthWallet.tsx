@@ -23,9 +23,7 @@ const EthWallet = ({mnemonic}) => {
     }
   return (
     <div>
-        <Button onClick={AddWallet} title="ETH Wallet">
-            ETH Wallet
-        </Button>
+        <Button onClick={AddWallet} title="ETH Wallet" />
         {address.map((p,index)=>(
             <div key={index}>
                 ETH -{p}

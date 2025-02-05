@@ -3,6 +3,7 @@ import { useState } from "react";
 import {derivePath} from "ed25519-hd-key";
 import {Keypair} from "@solana/web3.js"
 import nacl from "tweetnacl";
+import Button from "./ui/button";
 
 const SolanaWallet = ({mnemonic}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -25,7 +26,7 @@ const SolanaWallet = ({mnemonic}) => {
     }
   return (
     <div>
-        <button onClick={AddWallet}>Add Wallet</button>
+        <Button title="Add SOL Wallet" onClick={AddWallet}>Add Wallet</Button>
         {publicKeys.map((p,index)=>(
             <div key={index}>
                 {p}

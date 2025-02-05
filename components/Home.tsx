@@ -1,5 +1,4 @@
 "use client";
-import { Signup } from "./Signup";
 import { TextGenerateEffect } from "./ui/text-generate-efftect";
 import WalletGenerator from "./WalletGenerator";
 

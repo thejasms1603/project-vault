@@ -14,3 +14,9 @@ const Button = ({ title, onClick }: buttonProps) => {
 };
 
 export default Button
+
+// const Button = () => {
+//   return <button>Button</button>;
+// }
+
+// export default Button;

@@ -1,5 +1,5 @@
 import { Vault } from 'lucide-react';
-import ModeToggle from './ui/themebutton';
+import {ModeToggle} from './ui/themebutton';
 
 const Navbar = () => {
   return (

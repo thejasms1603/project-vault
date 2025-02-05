@@ -6,7 +6,7 @@ import EthWallet from "./EthWallet";
 
 
 const WalletGenerator = () => {
-    const [mnemonic, setMnemonic] = useState("")
+    const [mnemonic, setMnemonic] = useState<string[] | "">("")
   return (
     <div>
       <div className='flex flex-col py-3 gap-4 justify-center items-center'>
